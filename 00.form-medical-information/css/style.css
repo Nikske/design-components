@@ -1,0 +1,28 @@
+body {
+    width: 50%;
+    border-left: #aeaeae 1px solid;
+    margin: auto;
+    font-family: sans-serif;
+}
+header {
+    border-bottom: #aeaeae 1px dotted;
+    margin: 2%;
+}
+section {
+    margin: 2%;
+}
+.names {
+    display: inline-block;
+}
+.names input {
+    display: block;
+}
+.names label {
+    font-size: 80%;
+}
+#firstname {
+    width:30%;
+}
+#aah {
+    margin-left: -17%;
+}
