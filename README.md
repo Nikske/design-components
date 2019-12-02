@@ -1,6 +1,5 @@
-# :suspect: 21 Design challenges
+# [:suspect: 21 Design challenges](https://nikske.github.io/design-components/)
 
-## [Links to all exercises](https://nikske.github.io/design-components/)
 
 00 Medical form - :x:
 
