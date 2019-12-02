@@ -4,7 +4,6 @@ body {
   color: #1d1d1d;
   font-family: sans-serif;
 }
-
 #center {
   margin: 0;
   position: absolute;
@@ -14,43 +13,39 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-#center h1 {
-  font-size: 370%;
-  font-family: serif;
+#center {
+  h1 {
+    font-size: 370%;
+    font-family: serif;
+  }
+  p {
+    margin-top: -3%;
+    font-size: 120%;
+  }
 }
-#center p {
-  margin-top: -3%;
-  font-size: 120%;
-}
-
-a:visited, a:link {
+%green {
   color: #63C58B;
 }
-
 a:link {
+  @extend %green;
   text-decoration: none;
 }
-
 a:visited {
+  @extend %green;
   text-decoration: none;
 }
-
 a:hover {
-  color: #366d47;
+  color:#366d47;
   text-decoration: none;
 }
-
 #button {
   background-color: #63C58B;
-  width: 25%;
+  width:  25%;
   margin: 4% auto 0 auto;
   padding: 2.5%;
   border: 1px #63C58B solid;
   border-radius: 3px;
+  span {
+    color: white;
+  }
 }
-#button span {
-  color: white;
-}
-
-/*# sourceMappingURL=style.css.map */

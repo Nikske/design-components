@@ -2,4 +2,4 @@
 
 00 Medical form - :x:
 
-05 Zone CTA - :x:
+05 Zone CTA - :check:
