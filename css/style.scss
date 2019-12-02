@@ -1,7 +1,7 @@
 body {
   width: 70%;
   margin: auto;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 header {
   margin-bottom: 5%;
@@ -14,9 +14,22 @@ ul {
 }
 $links: 'a:link, a:active, a:visited';
 #{$links} {
-  color: red;
+  color: whitesmoke;
   text-decoration: none;
 }
 a:hover {
-
+  color: #366d47;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.divider {
+  display: inline-block;
+  background-color: #63C58B;
+  width: 28%;
+  padding: 0.5%;
+  margin-right: 2%;
+  border-radius: 5px;
 }
