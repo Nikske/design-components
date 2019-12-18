@@ -1,3 +1,26 @@
-
+#page-wrapper {
+  width: 70%;
+  margin: auto;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#page-wrapper .img-fit {
+  width: 100%;
+  object-fit: cover;
+  height: 15em;
+}
+#page-wrapper article h2 {
+  font-weight: 600;
+}
+#page-wrapper article p {
+  color: darkgray;
+}
+#page-wrapper article .avatar {
+  width: 18%;
+  border-radius: 50%;
+}
+#page-wrapper article a {
+  text-decoration: none;
+  color: darkgray;
+}
 
 /*# sourceMappingURL=style.css.map */
